@@ -30,14 +30,14 @@ Callbacks are just the name of a convention for using JavaScript functions. Ther
 To Battle the problem of syntactical hell some wise men created the idea of Promise.
 These are the Basic Principles Behind Promise.
 
-`
+```
 * Promises provide control over result of a callback:to **resolve or to reject**.
 * All Promises objects have **.then()** method attached to them.
 
-`
+```
 ### Lets Create Our First Promise.
 
-`
+```
 
 //Promise Constructor.
 var promise1 = new Promise(function(resolve,reject)){
@@ -52,7 +52,7 @@ promise1.then(function(value){
     console.log(value);
 })
 
-`
+```
 
 Promise has one of these states:
 
