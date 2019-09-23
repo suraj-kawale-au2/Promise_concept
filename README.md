@@ -33,10 +33,12 @@ These are the Basic Principles Behind Promise.
 `
 * Promises provide control over result of a callback:to **resolve or to reject**.
 * All Promises objects have **.then()** method attached to them.
+
 `
 ### Lets Create Our First Promise.
 
 `
+
 //Promise Constructor.
 var promise1 = new Promise(function(resolve,reject)){
      //Write your promise code here.
@@ -51,6 +53,7 @@ promise1.then(function(value){
 })
 
 `
+
 Promise has one of these states:
 
 * **pending**: initial state,neither fulfilled nor rejected.
