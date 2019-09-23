@@ -143,7 +143,7 @@ fetch()
 
 ## Assignment 
 
- * Select any number at random from **arr=[1,2,3,4,5,6,7,17,19,20,21,22,23]**.
+ * Select any number at random from **arr=[1,2,3,4,5,6,7,17,19,20,21,22,23,45]**.
 
  * For the selected number get the name of user using num as id of user from api **https://api.github.com/users** .
 
