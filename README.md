@@ -150,9 +150,9 @@ fetch()
 
  * For the selected username make apicall **https://api.github.com/users/username**  and return the sum of followers and following.
 
- * Write your code inside function.js file.
- 
- * Your code should pass the basic test written in function.test.js
+ * Write your code inside [this](function.js) file.
+
+ * Your code should pass the basic test written in [test](function.test.js).
  
 ```
  Example
