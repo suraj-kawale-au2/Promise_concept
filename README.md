@@ -145,14 +145,14 @@ fetch()
 
  * Select any number at random from **arr=[1,2,3,4,5,6,7,17,19,20,21,22,23]**.
 
- * For the selected number get the name of user from api **https://api.github.com/users** .
+ * For the selected number get the name of user using num as id of user from api **https://api.github.com/users** .
 
 
- * For the selected username make apicall **https://api.github.com/users/username**  and return the sum of followers and following.
+ * For the selected username from last step make apicall **https://api.github.com/users/username**  and return the sum of followers and following.
 
  * Write your code inside [this](function.js) file.
 
- * Your code should pass the basic test written in [test](function.test.js).
+ * After writing the code run command **npm test**.
  
 ```
  Example
