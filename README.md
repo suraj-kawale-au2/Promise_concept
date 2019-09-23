@@ -61,3 +61,52 @@ Promise has one of these states:
 * **rejected**: meaning that the operation failed.
 
 ![Explanation](https://mdn.mozillademos.org/files/15911/promises.png)
+
+###Lets Go through a Good analogy with code.
+
+Imagine you are training your puppy dog to be a good dog. You are making him learn command 'sit' . So when you say sit he should sit and you give him a treat and say good dog.
+
+Lets code this situation out in Javascript Promise World.
+
+This way you create a Basic Promise.
+
+```
+var DidDogSat = true;
+
+var WillGetTreat = new Promise(
+    function(resolve,reject){
+        if(DidDogSat){
+            var treat = {
+                eats : 'Pedigree',
+                says : 'Good dog'
+            };
+        
+        resolve(treat); // promise get fullfills
+    } else {
+        var reason = new Error('Dog bit you instead');
+        reject(reason); // promise get rejected
+    }
+   
+  }
+);
+
+```
+
+This way you consume the Promise
+
+```
+var Dog = function() {
+
+   WillGetTreat
+    .then(function(fulfilled){
+        console.log("Say",fulfilled.says,"Give him some",fulfilled.eats);
+    })
+    .catch(function(error){
+        console.log(error.message)
+    })
+    
+}
+
+```
+[Repl Link](https://repl.it/@surajk202/promise-example) - Run this.
+
