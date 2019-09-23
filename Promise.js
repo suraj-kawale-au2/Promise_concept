@@ -1,8 +1,10 @@
 const fetch = require('node-fetch');
 
 const getPeople = () => {
-    
-       // console.log(data);
+       // write your code here
+
+
+       
         return {
              count:"",
              height:"",
