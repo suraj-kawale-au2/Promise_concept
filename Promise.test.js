@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 const swapi = require('./Promise');
 
 it('calls swapi api sucessfully',()=>{
-    expect.assertions(2);
+    expect.assertions(5);
     return swapi.getPeople(fetch).then(data =>{
         expect(data.count).toEqual(87);
         expect(data.height).toEqual(172);
