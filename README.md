@@ -141,3 +141,23 @@ fetch()
 ```
 ***Always end all promise chains with **.catch()**.***
 
+## Assignment 
+
+ * Select any number at random from **arr=[1,2,3,4,5,6,7,17,19,20,21,22,23,25,26,27,28,29,30,32,34,36,37,38,44,46]**.
+
+ * For the selected number get the name of user from api **https://api.github.com/users** .
+
+
+ * For the selected username make apicall **https://api.github.com/users/username**  and return the sum of followers and following.
+ 
+```
+ Example
+ 
+  num = 45 
+ 
+  SumOfFollowersAndFollowing = 576
+```
+
+
+
+
