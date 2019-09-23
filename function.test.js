@@ -6,8 +6,9 @@ test('should add 2+2 = 4 ', () => {
 
 //Promise
 test('User fetched name should be',()=>{
-    expect.assertions(1);
-    return functions.fetchUser().then(data=>{
-        expect(data.name).toEqual('')
+    sums = [576,21657,21014,8220,9368,508,93,1249,106,715,633,2513,1105,89]
+    expect.assertions(2);
+    return functions.fetchSum().then(data=>{
+        expect(sums).toContain(data)
     })
 })
