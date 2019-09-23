@@ -161,6 +161,10 @@ fetch()
  
   SumOfFollowersAndFollowing = 576
 ```
+## More Reads on Topic 
+
+* [Link 1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+* [Link 2](https://developers.google.com/web/fundamentals/primers/promises)
 
 
 
