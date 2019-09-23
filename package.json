@@ -1,0 +1,22 @@
+{
+  "name": "promises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suraj-kawale-au2/Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suraj-kawale-au2/Test/issues"
+  },
+  "homepage": "https://github.com/suraj-kawale-au2/Test#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
