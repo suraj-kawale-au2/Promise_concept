@@ -6,7 +6,7 @@ The Promise object represents the eventual completion (or failure) of an asynchr
 
 ### "Callback Hell"
 
-Asynchronous JavaScript, or JavaScript that uses callbacks, is hard to get right intuitively.It Looks like this.
+Asynchronous JavaScript, or JavaScript that uses callbacks, is hard to get right intuitively. It Looks like this.
 
 ```
 getSomeData(function(x){
@@ -124,7 +124,8 @@ Promisecall(url)
 ```
 These are some functions which returns a Promise
 
-* **fetch()**
+* **fetch()** - [Read more](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
+* **axios()** - [Read more](https://github.com/axios/axios)
 * **process()**
 * **save()**
 
@@ -143,29 +144,19 @@ fetch()
 
 ## Assignment 
 
- * Select any number at random from **arr=[1,2,3,4,5,6,7,17,19,20,21,22,23,45]**.
+ * Read and Go through Swapi API documentation once. It gives you data about Star Wars Movie [Link](https://swapi.co/documentation).
 
- * For the selected number get the name of user using num as id of user from api **https://api.github.com/users** .
+ *  Make a API call using a Promise or fetch function to swapi api and get the List of all peoples in Star Wars [Link](https://swapi.co/api/).
 
+ * Once you make a successfull API request return an object having total counts of people in Stars Wars that api will return and heights, counts of height species , vehicles and starships of *LukeSkywalker* in an JS object.
 
- * For the selected username from last step make apicall **https://api.github.com/users/username**  and return the sum of followers and following.
+ * Try not to use AJAX function to call the API.
 
- * Write your code inside [this](function.js) file.
+ * Write your code inside [this](Promise.js) file.
 
  * After writing the code run command **npm test**.
- 
-```
- Example
- 
-  num = 45 
- 
-  SumOfFollowersAndFollowing = 576
-```
+
 ## More Reads on Topic 
 
 * [Link 1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 * [Link 2](https://developers.google.com/web/fundamentals/primers/promises)
-
-
-
-
