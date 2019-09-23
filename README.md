@@ -35,7 +35,7 @@ These are the Basic Principles Behind Promise.
 * All Promises objects have **.then()** method attached to them.
 
 ```
-### Lets Create Our First Promise.
+## Lets Create Our First Promise.
 
 ```
 
@@ -62,7 +62,7 @@ Promise has one of these states:
 
 ![Explanation](https://mdn.mozillademos.org/files/15911/promises.png)
 
-###Lets Go through a Good analogy with code.
+### Lets Go through a Good analogy with code.
 
 Imagine you are training your puppy dog to be a good dog. You are making him learn command 'sit' . So when you say sit he should sit and you give him a treat and say good dog.
 
@@ -109,4 +109,35 @@ var Dog = function() {
 
 ```
 [Repl Link](https://repl.it/@surajk202/promise-example) - Run this.
+
+### Promise Chaining 
+
+Since we have ***.then()*** object we could chain it using this. It will help you mimic serial control.
+In Code you can do this
+
+```
+Promisecall(url)
+ .then(process1)
+ .then(process2)
+ .then(process3)
+
+```
+These are some functions which returns a Promise
+
+* **fetch()**
+* **process()**
+* **save()**
+
+### Error Handling
+
+Promises have both success and error handling mechanism and we see it very often.
+**.catch()** object will help us catch the error. Here is example for this.
+
+```
+fetch()
+  .then()
+  .catch(error)
+
+```
+***Always end all promise chains with **.catch()**.***
 
