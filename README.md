@@ -156,6 +156,14 @@ fetch()
 
  * After writing the code run command **npm test**.
 
+
+## Interview Questions 
+
+* What are the use cases of Promise.all?
+* What are Promises used for?
+* What are the pros and cons of using Promises instead of callbacks?
+* How to write a Unit test in jest for testing JS Promises?
+
 ## More Reads on Topic 
 
 * [Link 1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
