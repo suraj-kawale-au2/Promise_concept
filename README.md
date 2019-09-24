@@ -148,7 +148,7 @@ fetch()
 
  *  Make a API call using a Promise or fetch function to swapi api and get the List of all peoples in Star Wars [Link](https://swapi.co/api/).
 
- * Once you make a successfull API request return an object having total counts of people in Stars Wars that api will return and heights, counts of height species , vehicles and starships of *LukeSkywalker* in an JS object.
+ * Once you make a successfull API request return an object having total counts of people in Stars Wars that api will return and heights, counts of species , vehicles and starships of *LukeSkywalker* in an JS object.
 
  * Try not to use AJAX function to call the API.
 
